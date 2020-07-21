@@ -10,6 +10,8 @@ library(ggplot2)
 total.steps <- tapply(data$steps, data$date, FUN = sum, na.rm = TRUE)
 qplot(total.steps, binwidth = 1000, xlab = "total number of steps taken each day")
 
+https://raw.githubusercontent.com/Sugantha-Priydharshini/RepData_PeerAssessment1/master/figure/unnamed-chunk-1.png
+
 mean(total.steps, na.rm = TRUE)
 
 ## [1] 9354
